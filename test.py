@@ -1,7 +1,7 @@
 import cv2
 
 # charge video
-cap = cv2.VideoCapture('poissons3.mp4')
+cap = cv2.VideoCapture(0)
 
 # lis la silhouette
 silhouette = cv2.imread('chamois.png', cv2.IMREAD_GRAYSCALE)
