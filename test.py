@@ -4,7 +4,7 @@ import cv2
 cap = cv2.VideoCapture(0)
 
 # lis la silhouette
-silhouette = cv2.imread('chamois.png', cv2.IMREAD_GRAYSCALE)
+silhouette = cv2.imread('poisson.png', cv2.IMREAD_GRAYSCALE)
 
 # dimensions de la vidéo
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
